@@ -14,7 +14,8 @@ def chicharronera(a, b, c):
                 complex(-b, -(d ** .5)) / (2.0 * a))
 
 #pruebas
-x1, x2 = chicharronera(10, 10, 6)
+x1, x2 = chicharronera(2, 3, 6)
+print(x1,x2)
 if x1 == x2:
     print ("Soluciones reales e iguales: x1 = x2 = %.2f" % x1)
 elif type(x1) == complex:

@@ -9,18 +9,15 @@ def potencia(base,exp):
     else:
         return base * potencia(base,exp-1)
 
-def seno(x):
-    conta=1
+def seno(rad):
+    x = rad * 3.141592 / 180
     result = 0 
-    for i in range (0,10):
-        
+    for i in range (51):
+        n = (2+i)-1
         if i%2 == 0:
-            result = result + (potencia(x,conta)/factorial(conta))
+            result = result - (potencia(x,n)/factorial(n))
         else:
-            result = result - (potencia(x,conta)/factorial(conta))
-            
-        #print(conta)
-        conta = conta +2
+            result = result + (potencia(x,n)/factorial(n))
     return result
 
-print(seno(10))
+print(seno(3.1416/2))

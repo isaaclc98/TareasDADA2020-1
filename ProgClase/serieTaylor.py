@@ -12,12 +12,12 @@ def potencia(base,exp):
 def seno(rad):
     x = rad * 3.141592 / 180
     result = 0 
-    for i in range (51):
+    for i in range (10):
         n = (2+i)-1
         if i%2 == 0:
             result = result - (potencia(x,n)/factorial(n))
         else:
             result = result + (potencia(x,n)/factorial(n))
-    return result
+    return result * -1
 
-print(seno(3.1416/2))
+print(seno(3.14661592/2))

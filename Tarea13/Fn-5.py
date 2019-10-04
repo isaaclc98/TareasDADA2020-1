@@ -1,4 +1,5 @@
 '''
+Obtener lideres
 Version Fn - 5
 lider.py
 '''

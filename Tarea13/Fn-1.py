@@ -8,4 +8,4 @@ def nPar(num):
 print(nPar(1))#0
 print(nPar(3))#4
 print(nPar(100))#198
-print(nPar(1298734))#259744
+print(nPar(1298734))#2597466

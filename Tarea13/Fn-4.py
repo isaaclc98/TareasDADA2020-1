@@ -16,7 +16,6 @@ def promLista(arreglo):
         suma += promed(arreglo[i])
     return suma
 
-print(promLista(prueba1))    
 prueba1 = [[1,2,2,2,2,1],[2,1]] #3.1
 prueba2 = [[10,5],[6,2,2],[1]]#11.8
 print(promLista(prueba1))    

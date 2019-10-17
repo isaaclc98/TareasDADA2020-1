@@ -10,13 +10,7 @@ def busca(lista,x):
             return i
     return -1
 
-def azar():
-    lista = []
-    for i in range (0,10000):
-        lista.append((random.randint(0, 100))
-    return lista
-
-lista = azar()
+lista = [random.randint(0,100) for _ in range(10000)]
 print(busca(lista,7))
 print(busca(lista,99))
 print(busca(lista,101))
